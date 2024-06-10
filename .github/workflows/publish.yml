@@ -15,7 +15,8 @@ jobs:
 
       - name: Trigger obscore build
         run: |
-          curl -X POST -H "Accept: application/vnd.github.v3+json" \
-          -H "Authorization: token ${{ secrets.TOKEN }}" \
-          https://api.github.com/repos/naikvenu/obscore/dispatches \
+          curl -X POST \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          https://api.github.com/repos/clarityposts/obscore/dispatches \
           -d '{"event_type":"trigger-build"}'
