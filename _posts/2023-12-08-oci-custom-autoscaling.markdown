@@ -5,7 +5,7 @@ date:   2023-12-08 11:59:25 +1100
 custom_css: style
 categories: OCI Autoscaling
 author: Venugopal Naik
-author_image: /my_assets/images/profile.png
+
 ---
 
 # Overview
@@ -18,7 +18,7 @@ This approach ensures adaptability to unique requirements, enabling efficient sc
 We will use Apache metrics in this demonstration.
 
 
-![Architecture](../../../../../../images/arch.png)
+![Architecture](../../../../images/arch.png)
 
 
 1. As shown in the architecture, the instance pool is built using Oracle Linux 8 image. We will install Apache and all the required dependencies using a cloud-init script.
@@ -54,7 +54,7 @@ Create a new bucket named ‘artifacts’ and add the following packages:
 
 The artifacts bucket after uploading all the required packages would look like this:
 
-![ObjectStorage](../../../../../../images/obj.png)
+![ObjectStorage](../../../../images/obj.png)
 
 # INSTANCE POOL
 
@@ -73,7 +73,7 @@ http://Load-Balancer-IP
 
 You should see an output like this:
 
->![Output](../../../../../../images/output.png)
+>![Output](../../../../images/output.png)
 
 # DEPLOY OCI SERVERLESS FUNCTION<
 

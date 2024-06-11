@@ -5,7 +5,7 @@ date:   2024-01-18 11:59:25 +1100
 categories: OCI Observability
 custom_css: style
 author: Venugopal Naik
-author_image: /my_assets/images/profile.png
+author_image: /images/profile.png
 ---
 
 In this blog, we'll explore the seamless integration of Fluentd as a DaemonSet in a Kubernetes environment, utilizing OCI (Oracle Cloud Infrastructure) logging as a backend to analyze and centralize kubernetes pod logs. Integrating Fluentd with OCI logging not only ensures a cost-effective solution but also empowers you with efficient log analysis. Let's dive into the details of how this integration enhances your Kubernetes logging experience and unlocks the full potential of your log data.
@@ -20,7 +20,7 @@ Here is a little bit about the services:
 It's low cost, provides saved searches and lets us create alerting on those saved queries. It also provides archiving capabilities to OCI object storage and it also provides a fluentd output plugin which can be leveraged to receive logs from any environment (on-prem or other cloud providers environment). In this example we are looking at a kubernetes environment in general and bringing those logs back into OCI Logging for analysis. Not just alerting once the metrics from saved search are available on OCI monitoring, we can use them to build metric dashboards as well.
 If your use case looks similar to this then please read on.
 
-![Architecture](../../../../../../images/fluentd.png)
+![Architecture](../../../../images/fluentd.png)
 
 1. Illustrated in the architecture, the logs from Application pods in a Kubernetes cluster are directed to the worker nodes, stored at the path /var/log/containers.
 2. Within the Kubernetes cluster, Fluentd is implemented as a daemonset, employing the tail input plugin to retrieve logs and transfer them to the OCI Logging for analysis.
