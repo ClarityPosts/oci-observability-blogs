@@ -10,13 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Trigger obscore build
+    
+      - name: Trigger obs build
         run: |
           curl -X POST \
           -H "Accept: application/vnd.github.v3+json" \
-          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Authorization: token ${{ secrets.TOKEN }}" \
           https://api.github.com/repos/ClarityPosts/observability/dispatches \
           -d '{"event_type":"trigger-build"}'
