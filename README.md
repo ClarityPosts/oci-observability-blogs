@@ -17,8 +17,8 @@ _root_directory/
 │   └── peoplesoft/
 ├── images/
 └── _posts/
-     ├── 2023-12-08-oci-custom-autoscaling.md
-     └── 2024-01-18-oci-kube-logging.md
+     ├── oci-custom-autoscaling.md
+     └── oci-kube-logging.md
 ```
 
 # Creating a New Tutorial
