@@ -82,6 +82,6 @@ Example:
 
 Submitting Your Tutorial
 
-[!refer](CONTRIBUTE.md)
+[CONTRIBUTE](CONTRIBUTE.md)
 
 Thank you for contributing.
