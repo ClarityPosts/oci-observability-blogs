@@ -25,8 +25,7 @@ a supported version of EBS.
 
 # Database Details	 
 
-Collecting EBS database details is essential to enable Observability & Management for EBS Databases. We would use these details with OCI O&M Stack monitoring service which provides simplified discovery for Oracle Databases. With Stack monitoring Service we can discover external databases (outside OCI), both single-instance Oracle Databases and Oracle RAC instances, including the DB System using the Stack Monitoring service. The entire db system is discovered as part of an Oracle Database discovery.
-After deploying and configuring the Management Agents,  we can discover WebLogic Domain and Oracle Database with minimum input parameters – these parameters basically ask for resource name, connection details and monitoring credentials.   Once discovery is complete, monitoring automatically starts. Having these details collected beforehand would be a good start.
+Collecting EBS database details is essential to enable Observability & Management for EBS Databases. We would use these details with OCI O&M Stack monitoring service which provides simplified discovery for Oracle Databases. 
 
 Service that need these details:
 - Database Management Service
@@ -78,17 +77,28 @@ Service that need these details:
 
 # Network Details
 
-If customers on-prem network has a proxy or a firewall then we would need to use that and add it to our .rsp files during management gateway or management agent installations.
+When deploying the management gateway or management agent in an on-premises environment with a proxy or firewall, it is necessary to configure the proxy settings appropriately. This ensures that the components can communicate with Oracle Cloud Infrastructure (OCI) through the designated proxy or firewall. The proxy details need to be added to the input configuration files during the installation process. The required information includes the proxy host and port number. 
+
 
 | Proxy Details | OCI Connection type |
 |---------------|---------------------|
 | Host: company.proxy.com port: 80 | Fastconnect/IPSec VPN/Direct Internet |
 
+# OCI Naming conventions
 
-# Summary
+If you already subscribed to OCI tenancy, then please gather the tenancy name.
 
-This conversation should be done at the early stages before enablement. This can be a very useful record for the current implementation and future references.
+| OCI Tenancy Name | OCI Resources Naming |
+|---------------|---------------------|
+| <your-tenancy-name> | EBS_DEV_<resource_name> example: EBS_DEV_DB_LOG, EBS_DEV_APM_POLICIES |
 
-# Next Steps
+# Tutorial Summary and Next Steps
 
-We will look at different solution architectures that can be leveraged while enabling EBS monitoring.
+In this tutorial, we explored the process of discovering the on-premises Oracle E-Business Suite (EBS) environment. This step is crucial and should be undertaken in the early stages before enabling the management of the EBS environment from Oracle Cloud Infrastructure (OCI).
+
+The discovery process provides valuable insights into the current state of the on-premises EBS environment, which can be beneficial for the current implementation as well as future reference. 
+
+As you progress through the tutorial series, the next step will be to delve deeper into the enablement process. 
+
+Thank you !
+
