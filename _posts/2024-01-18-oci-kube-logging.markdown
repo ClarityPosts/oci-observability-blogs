@@ -20,7 +20,7 @@ Here is a little bit about the services:
 It's low cost, provides saved searches and lets us create alerting on those saved queries. It also provides archiving capabilities to OCI object storage and it also provides a fluentd output plugin which can be leveraged to receive logs from any environment (on-prem or other cloud providers environment). In this example we are looking at a kubernetes environment in general and bringing those logs back into OCI Logging for analysis. Not just alerting once the metrics from saved search are available on OCI monitoring, we can use them to build metric dashboards as well.
 If your use case looks similar to this then please read on.
 
-![Architecture](../../../../images/fluentd.png)
+![Architecture]({{ site.baseurl }}/images/fluentd.png)
 
 1. Illustrated in the architecture, the logs from Application pods in a Kubernetes cluster are directed to the worker nodes, stored at the path /var/log/containers.
 2. Within the Kubernetes cluster, Fluentd is implemented as a daemonset, employing the tail input plugin to retrieve logs and transfer them to the OCI Logging for analysis.
