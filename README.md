@@ -2,11 +2,13 @@
 
 Begin by referring to contributing process [CONTRIBUTE](CONTRIBUTE.md)
 
-This document will help you create and format your own posts and tutorials within our project. Please follow the guidelines and use the provided templates to ensure consistency and quality.
+ClarityPosts is hosted at : https://clarityposts.github.io/observability/
+
+This document will help you create and format your own posts and tutorials within this project. Please follow the guidelines and use the provided templates to ensure consistency and quality.
 
 # Folder Structure
 
-Our project is organized into the following folder structure:
+The project is organized into the following folder structure:
 
 ```
 _root_directory/
@@ -72,7 +74,7 @@ tutorial_number: 1
 ---
 ```
 
-If your tutorial includes images, please store them in the images folder and reference them in your markdown file using the appropriate path.
+If your tutorial includes images, please store them in the images folder and reference them in your markdown file using the appropriate path. Please ensure that there are no <b>Duplications</b> with the image names.
 
 Example:
 
