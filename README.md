@@ -1,6 +1,6 @@
 # Contribution Guide! 
 
-Begin by referring to contributing process [!CONTRIBUTE](CONTRIBUTE.md)
+Begin by referring to contributing process [CONTRIBUTE](CONTRIBUTE.md)
 
 This document will help you create and format your own posts and tutorials within our project. Please follow the guidelines and use the provided templates to ensure consistency and quality.
 
