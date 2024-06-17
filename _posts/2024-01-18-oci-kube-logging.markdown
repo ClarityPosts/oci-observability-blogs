@@ -1,9 +1,7 @@
 ---
-layout: post
 title:  "Seamless Kubernetes Logging with Fluentd: Leveraging OCI Logging as a Back-End"
 date:   2024-01-18 11:59:25 +1100
 categories: OCI Observability
-custom_css: style
 author: Venugopal Naik
 author_image: /images/profile.png
 ---

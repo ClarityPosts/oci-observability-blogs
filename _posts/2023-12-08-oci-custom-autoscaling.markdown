@@ -1,11 +1,8 @@
 ---
-layout: post
 title:  "Oracle Cloud Infrastructure (OCI) Custom Metric-based Autoscaling using Serverless Functions"
 date:   2023-12-08 11:59:25 +1100
-custom_css: style
 categories: OCI Autoscaling
 author: Venugopal Naik
-
 ---
 
 # Overview
