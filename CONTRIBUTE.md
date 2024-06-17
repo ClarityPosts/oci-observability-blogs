@@ -1,6 +1,4 @@
-# How to Contribute
-
-To contribute a tutorial, follow these steps:
+# How to Contribute Process
 
 Fork the repository:
     Go to the main repository on GitHub.
