@@ -8,6 +8,7 @@ This document will help you create and format your own posts and tutorials withi
 
 Our project is organized into the following folder structure:
 
+```
 _root_directory/
 ├── _tutorials/
 │   ├── EBS/
@@ -16,6 +17,7 @@ _root_directory/
 └── _posts/
      ├── 2023-12-08-oci-custom-autoscaling.md
      └── 2024-01-18-oci-kube-logging.md
+```
 
 # Creating a New Tutorial
 
@@ -27,6 +29,7 @@ To create a new tutorial, follow these steps:
 
     Use the following template for your markdown file:
 
+```
 ---
 title: "Your Tutorial Title"
 date: YYYY-MM-DD HH:MM:SS +TZD
@@ -37,6 +40,7 @@ tutorial_name: Your Tutorial Name
 tutorial_series: Your Tutorial Series
 tutorial_number: X
 ---
+```
 
 Template Field Descriptions
 
@@ -55,8 +59,7 @@ Here's an example of how a tutorial markdown file should look:
 
 For an EBS tutorial:
 
-markdown
-
+```
 ---
 title: "Planning E-Business Suite"
 date: 2024-06-12 10:00:00 +1100
@@ -67,28 +70,11 @@ tutorial_name: EBS OCI Monitoring
 tutorial_series: E-Business Suite
 tutorial_number: 1
 ---
-
-For a Peoplesoft tutorial:
-
-markdown
-
----
-title: "Planning Peoplesoft"
-date: 2024-06-13 10:00:00 +1100
-categories: Peoplesoft OCI O&M
-author: Venugopal Naik
-author_image: /images/profile.png
-tutorial_name: Peoplesoft OCI Monitoring
-tutorial_series: Peoplesoft
-tutorial_number: 1
----
-
+```
 
 If your tutorial includes images, please store them in the images folder and reference them in your markdown file using the appropriate path.
 
 Example:
-
-markdown
 
 ![Alt Text]({{ site.baseurl }}/images/your_image.png)
 
