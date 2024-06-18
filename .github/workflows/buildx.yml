@@ -1,4 +1,4 @@
-name: Trigger Build in blog-core
+name: Trigger Build 
 
 on:
   push:

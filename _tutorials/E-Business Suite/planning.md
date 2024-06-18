@@ -101,3 +101,7 @@ The discovery process provides valuable insights into the current state of the o
 As you progress through the tutorial series, the next step will be to delve deeper into the enablement process. 
 
 Thank you !
+
+---
+<br>
+** Disclaimer: I work for Oracle and the views expressed on this documentation are my own and do not necessarily reflect the views of Oracle. ** 
