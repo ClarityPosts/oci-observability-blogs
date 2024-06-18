@@ -15,8 +15,8 @@ _root_directory/
 │   └── peoplesoft/
 ├── images/
 └── _posts/
-     ├── oci-custom-autoscaling.md
-     └── oci-kube-logging.md
+     ├── 2023-12-08-oci-custom-autoscaling.md
+     └── 2024-01-18-oci-kube-logging.md
 ```
 
 # Creating a New Tutorial
@@ -80,7 +80,10 @@ Example:
 
 # Submitting your Posts/Blogs
 
-It involves a similar process, refer one of the .md files under _posts directory and follow the similar structure.
+It involves a similar process, refer one of the .md files under _posts directory and follow the similar structure. Note that the file name for the posts should begin with the dates
+└── _posts/
+     ├── 2023-12-08-oci-custom-autoscaling.md
+     └── 2024-01-18-oci-kube-logging.md
 
 # Submitting Your Tutorial
 
