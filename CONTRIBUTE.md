@@ -23,9 +23,7 @@ git checkout -b your-branch-name
 ```
 Replace your-branch-name with a descriptive name for your branch.
 
-Add your tutorial:
-
-Follow the steps in the "Creating a New Tutorial" section to create your tutorial markdown file and add any necessary images.
+Add your Post or tutorial.
 
 # Commit your changes:
 
@@ -36,10 +34,11 @@ git push origin your-branch-name
 ```
 
 # Create a pull request:
-        Go to your forked repository on GitHub.
-        Click the "Compare & pull request" button.
-        Provide a meaningful title and description for your pull request.
-        Submit the pull request.
+
+Go to your forked repository on GitHub.
+Click the "Compare & pull request" button.
+Provide a meaningful title and description for your pull request.
+Submit the pull request.
 
 # Review Process
 
