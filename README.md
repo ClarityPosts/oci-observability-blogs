@@ -1,7 +1,5 @@
 # Contribution Guide! 
 
-Begin by referring to contributing process [CONTRIBUTE](CONTRIBUTE.md)
-
 ClarityPosts is hosted at : https://clarityposts.github.io/observability/
 
 This document will help you create and format your own posts and tutorials within this project. Please follow the guidelines and use the provided templates to ensure consistency and quality.
@@ -80,8 +78,12 @@ Example:
 
 ![Alt Text]({{ site.baseurl }}/images/your_image.png)
 
-Submitting Your Tutorial
+# Submitting your Posts/Blogs
 
-[CONTRIBUTE](CONTRIBUTE.md)
+It involves a similar process, refer one of the .md files under _posts directory and follow the similar structure.
 
-Thank you for contributing.
+# Submitting Your Tutorial
+
+Refer [CONTRIBUTE](CONTRIBUTE.md)
+
+Thank you for contributing !
