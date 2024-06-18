@@ -88,11 +88,11 @@ When deploying the management gateway or management agent in an on-premises envi
 
 If you already subscribed to OCI tenancy, then please gather the tenancy name.
 
-| OCI Tenancy Name | OCI Resources Naming |
-|---------------|---------------------|
-| <your-tenancy-name> | EBS_DEV_<resource_name> example: EBS_DEV_DB_LOG, EBS_DEV_APM_POLICIES |
+| OCI Tenancy Name | OCI Resources Naming | Observability Admins | OCI Observability Compartment | OCI IAM Domain |
+|---------------|---------------------|---------------|---------------------|---------------------|
+| your-tenancy-name | EBS_DEV_(your_resource_name) ex: EBS_DEV_DB_LOG, EBS_DEV_APM_POLICIES| obsAdmin1@abc-corp.com | EBS-OBS-DEV | DEFAULT (Provide URL)
 
-# Tutorial Summary and Next Steps
+# Tutorial Summary
 
 In this tutorial, we explored the process of discovering the on-premises Oracle E-Business Suite (EBS) environment. This step is crucial and should be undertaken in the early stages before enabling the management of the EBS environment from Oracle Cloud Infrastructure (OCI).
 
@@ -101,4 +101,3 @@ The discovery process provides valuable insights into the current state of the o
 As you progress through the tutorial series, the next step will be to delve deeper into the enablement process. 
 
 Thank you !
-
