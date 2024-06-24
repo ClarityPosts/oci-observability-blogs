@@ -2,9 +2,9 @@
 title: "Planning E-Business Suite Observability and Monitoring"
 date: 2024-06-12 10:00:00 +1100
 categories: EBS OCI O&M
-author: Venugopal Naik
-author_image: /images/profile.png
-tutorial_name: EBS OCI Monitoring
+authors: 
+  - name: Venugopal Naik
+    image: /images/profile.png
 tutorial_series: E-Business Suite
 tutorial_number: 1
 ---
