@@ -17,9 +17,7 @@ Before designing OCI O&M Solution consider whether in your architecture you woul
 Observability and management services are usually exposed and accessed over the internet, but customers with the workloads running on-premises would connect to OCI either using Secure IPSec VPN or fastConnect securely and by leveraging end to end encryption.
 Note, that you would require to whitelist *.oraclecloud.com or IP address ranges for OCI O&M services on your corporate firewall.
 
-[Reference](https://docs.oracle.com/en-us/iaas/management-agents/doc/perform-prerequisites-deploying-management-agents.html#GUID-BC5862F0-3E68-4096-B18E-C4462BC76271__NETWORKPREREQUISITES-C3DFB461)
-
-There is also a gateway to gateway peering architecture for use case when customers would just want to whitelist one IP.
+There is also a gateway to gateway peering architecture for use case when customers would just want to whitelist one IP address.
 
 # Management Gateway
 
