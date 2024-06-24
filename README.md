@@ -34,9 +34,11 @@ To create a new tutorial, follow these steps:
 title: "Your Tutorial Title"
 date: YYYY-MM-DD HH:MM:SS +TZD
 categories: [Category1, Category2]
-author: Your Name
-author_image: /images/your_profile_image.png
-tutorial_name: Your Tutorial Name
+authors: 
+  - name: Author-1
+    image: /images/Author-1-profile.png
+  - name: Author-2 
+    image: /images/Author-2-profile.png
 tutorial_series: Your Tutorial Series
 tutorial_number: X
 ---
@@ -47,9 +49,9 @@ Template Field Descriptions
     title: The title of your tutorial.
     date: The publication date and time in the format YYYY-MM-DD HH:MM:SS +TZD (e.g., 2024-06-12 10:00:00 +1100).
     categories: A list of categories relevant to your tutorial.
-    author: Your name.
-    author_image: Path to your profile image stored in the images folder.
-    tutorial_name: The specific name of your tutorial.
+    authors: 
+      - name: Your name.
+        image: Path to your profile image stored in the images folder.
     tutorial_series: The series to which your tutorial belongs.
     tutorial_number: The number of your tutorial in the series.
 
@@ -64,9 +66,11 @@ For an EBS tutorial:
 title: "Planning E-Business Suite"
 date: 2024-06-12 10:00:00 +1100
 categories: EBS OCI O&M
-author: Venugopal Naik
-author_image: /images/profile.png
-tutorial_name: EBS OCI Monitoring
+authors: 
+  - name: Author-1
+    image: /images/Author-1-profile.png
+  - name: Author-2 
+    image: /images/Author-2-profile.png
 tutorial_series: E-Business Suite
 tutorial_number: 1
 ---
