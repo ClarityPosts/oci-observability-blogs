@@ -5,7 +5,7 @@ categories: EBS OCI O&M
 authors: 
   - name: Venugopal Naik
     image: /images/profile.png
-tutorial_series: E-Business Suite
+tutorial_series: Monitoring E-Business Suite using OCI O&M
 tutorial_number: 1
 ---
 # Overview
