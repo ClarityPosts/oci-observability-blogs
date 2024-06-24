@@ -1,6 +1,6 @@
 ---
 title: "Setting up Identity & management Policies"
-date: 2024-06-12 10:00:00 +1100
+date: 2024-06-24 10:00:00 +1100
 categories: EBS OCI O&M, EBS OCI IAM POLICIES
 authors: 
   - name: Venu
