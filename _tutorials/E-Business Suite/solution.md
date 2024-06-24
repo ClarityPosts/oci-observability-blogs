@@ -1,5 +1,5 @@
 ---
-title: "Selecting the Right Solution Architecture"
+title: "Choosing the Right Solution Architecture"
 date: 2024-06-06 10:00:00 +1100
 categories: EBS O&M Solution Architectures, EBS OCI O&M
 authors: 
@@ -12,16 +12,13 @@ tutorial_number: 2
 
 # Overview
 
-Before designing OCI O&M Solution consider whether in your architecture you would consider having a management gateway, or just a management agent installation on the hosts would suffice the requirement. We have explained under each of the below sections about these.
+Before designing an OCI O&M Solution, consider whether your architecture requires a management gateway or if simply installing a management agent on the hosts will suffice. Each option is detailed in the sections below.
 
-Observability and management services are usually exposed and accessed over the internet, but customers with the workloads running on-premises would connect to OCI either using Secure IPSec VPN or fastConnect securely and by leveraging end to end encryption.
-Note, that you would require to whitelist *.oraclecloud.com or IP address ranges for OCI O&M services on your corporate firewall.
+Typically, observability and management services are accessed over the internet. However, customers with on-premises workloads can securely connect to OCI using Secure IPSec VPN or FastConnect, leveraging end-to-end encryption. Note that it is necessary to whitelist *.oraclecloud.com or the IP address ranges for OCI O&M services on your corporate firewall.
 
-There is also a gateway to gateway peering architecture for use case when customers would just want to whitelist one IP address.
+Additionally, for cases where customers prefer to whitelist a single IP address, a gateway-to-gateway peering architecture is available.
 
 # Management Gateway
-
-> Note: Oracle recommends to configure the Management Gateway first and then the Management Agent on the other hosts.
 
 The Management Gateway provides a single point of communication between the Management Agents and the Oracle Cloud Infrastructure.
 
@@ -32,6 +29,8 @@ Using the Management Gateway as the single point for traffic to and from the Ora
 In the above diagram, we see that management agents are deployed on the App servers and Database servers. The agents talk to Management gateway on port 4480. Management gateway inturn talks to OCI O&M services via corporate firewall on port 443 securely either via Site to Site VPN or fastConnect.
 
 Oracle's Official documentation on Management gateway can be found [here](https://docs.oracle.com/en-us/iaas/management-agents/doc/management-gateway.html)
+
+> Note: Oracle recommends to configure the Management Gateway first and then the Management Agent on the other hosts.
 
 # Whitelisting
 
@@ -49,6 +48,7 @@ Refer [this](https://docs.oracle.com/en-us/iaas/management-agents/doc/install-ma
 
 If the requirement is just to use management agents then refer [this](https://docs.oracle.com/en-us/iaas/management-agents/doc/you-begin.html#GUID-0FDD7E1D-E228-4D34-8EAD-21508405C67A) documentation and proceed to install agents on host and database servers. Firewall rules still be applicable in this case as well.
 
+<br>
 ---
 <br>
 ** Disclaimer: I work for Oracle and the views expressed on this documentation are my own and do not necessarily reflect the views of Oracle. ** 
